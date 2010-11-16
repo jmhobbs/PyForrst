@@ -27,6 +27,21 @@ All API calls will either return a response object or a False is the API returne
 
 Network problems and the like will raise exceptions of a wide variety :-)
 
+# Testing
+
+PyForrst is in flux at the moment (like the Forrst API) so it has minimal test suites.
+
+You can run what it has with nose.
+
+    $ cd PyForrst
+		$ nosetests
+		..
+		----------------------------------------------------------------------
+		Ran 2 tests in 0.454s
+
+		OK
+		$
+
 # Installation
 
     $ python setup.py install

@@ -2,7 +2,7 @@
 from distutils.core import setup
 setup(
 	name='PyForrst',
-	version='1.0',
+	version='1.0.1',
 	description='Quick Forrst API Access',
 	author='John Hobbs',
 	author_email='john@velvetcache.org',

@@ -32,7 +32,7 @@ class Forrst ( object ):
 			response = urllib2.urlopen( req )
 			value = response.read()
 			return json.loads( value )
-		except HTTPError, e:
+		except urllib2.HTTPError, e:
 			if 404 == e.code:
 				return False
 			else:
